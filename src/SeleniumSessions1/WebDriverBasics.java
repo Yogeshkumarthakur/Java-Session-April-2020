@@ -1,4 +1,4 @@
-package SeleniumSessions;
+package SeleniumSessions1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ public class WebDriverBasics {
 
 		// 1. Firefox browser we use gecko driver
 
-		// So in below statement FirefoxDriver() is a class
+		// In the below statement FirefoxDriver() is a class
 		// new is a object of this particular class
 		// WebDriver is an interface
 		// driver is a webDriver Reference variable
@@ -31,12 +31,14 @@ public class WebDriverBasics {
 
 		if (title.equals("Google")) {
 			System.out.println("Correct title");
-		} else {
+		} else
+
+		{
 			System.out.println("incorrect title");
 		}
 		System.out.println(driver.getCurrentUrl());// get current url
-		//System.out.println(driver.getPageSource()); // you will get the page source
-		driver.quit(); // to close the browser
+		// System.out.println(driver.getPageSource()); // you will get the page source
+//		driver.quit(); // to close the browser
 	}
 
 }

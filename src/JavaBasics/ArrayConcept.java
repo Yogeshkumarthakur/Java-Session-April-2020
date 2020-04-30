@@ -24,7 +24,7 @@ public class ArrayConcept {
 		//System.out.println(i[4]); // ArrayIndexOutOfBoundsException
 		System.out.println(i.length); // size of array which is 4
 		
-		//Print all the values of array for this we need to use for loop
+		//To Print all the values of array we need to use for loop
 		
 		for(int j=0;j<i.length;j++) {
 			System.out.println(i[j]);
@@ -54,10 +54,13 @@ public class ArrayConcept {
 		s[0] = "test";
 		s[1] = "Hello";
         s[2] = "hi";
-        
-        System.out.println(s.length);
+              
         System.out.println(s[1]);
-		
+        System.out.println(s.length);
+        
+        System.out.println("*********");
+        
+        
         //6. Object array: this is the super class of all the classes-- it is used to store different data type values.
         Object ob[] = new Object[6];
         ob[0] = "Tom";

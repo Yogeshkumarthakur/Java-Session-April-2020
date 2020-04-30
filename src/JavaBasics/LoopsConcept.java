@@ -12,6 +12,7 @@ public class LoopsConcept {
 			System.out.println(i);
 			i=i+1; // incremental
 		}
+				
 		System.out.println("**********");
 		
 		
@@ -22,10 +23,10 @@ public class LoopsConcept {
 			System.out.println(j);
 		}
 		System.out.println("*******");
-		
+	
 		//Print 10 to 1
 		//k-- means k=k-1
-		//below o/p 10 9 8 7 6 5 4 3 2 1
+		//below O/P 10 9 8 7 6 5 4 3 2 1
 		
 		for (int k=10; k>=1; k--) {  //Initialisation, conditional, decremental
 			System.out.println(k);

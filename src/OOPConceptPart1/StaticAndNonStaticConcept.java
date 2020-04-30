@@ -24,7 +24,7 @@ public class StaticAndNonStaticConcept {
 		System.out.println(obj.name);
 		
 		// can i access static method by using object reference method ? Yes
-		obj.sum(); // warning will be given because this is not a good practice it is freely availble
+		obj.sum(); // warning will be given because this is not a good practice it is freely available
 				
 	}
 	

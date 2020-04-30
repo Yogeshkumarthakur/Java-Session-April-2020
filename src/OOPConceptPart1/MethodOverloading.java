@@ -14,7 +14,7 @@ public class MethodOverloading {
 	// Duplicate method are not allowed--> same method with same no of arguments are not allowed
 	// We can not create method inside a method
 	// main method can be overloaded but with different data type or input parameters
-	// below are the non static methods so we need to call them by Object 
+	// below are the non static methods so we need to call them by creating Object 
 	
 	public void sum() {// 0 input parameter
 		System.out.println("Sum method with zero input parameter");

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58153" started-at="2020-04-27T05:53:48Z" finished-at="2020-04-27T05:54:46Z">
+    <groups>
+      <group name="LinkTest">
+        <method signature="GoogleTest.linkTextTest()[pri:3, instance:com.test.GoogleTest@57e1b0c]" name="linkTextTest" class="com.test.GoogleTest"/>
+      </group> <!-- LinkTest -->
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.test.GoogleTest@57e1b0c]" name="test1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.test.GoogleTest@57e1b0c]" name="test2" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.test.GoogleTest@57e1b0c]" name="test3" class="com.test.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Title">
+        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:com.test.GoogleTest@57e1b0c]" name="googleTitleTest" class="com.test.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="GoogleTest.googleLogoTest()[pri:2, instance:com.test.GoogleTest@57e1b0c]" name="googleLogoTest" class="com.test.GoogleTest"/>
+      </group> <!-- Logo -->
+    </groups>
+    <test name="Default test" duration-ms="58153" started-at="2020-04-27T05:53:48Z" finished-at="2020-04-27T05:54:46Z">
+      <class name="com.test.GoogleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="12552" started-at="2020-04-27T05:53:48Z" finished-at="2020-04-27T05:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:com.test.GoogleTest@57e1b0c]" name="googleTitleTest" duration-ms="11" started-at="2020-04-27T05:54:01Z" finished-at="2020-04-27T05:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="620" started-at="2020-04-27T05:54:01Z" finished-at="2020-04-27T05:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="8222" started-at="2020-04-27T05:54:02Z" finished-at="2020-04-27T05:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:com.test.GoogleTest@57e1b0c]" name="googleLogoTest" duration-ms="185" started-at="2020-04-27T05:54:10Z" finished-at="2020-04-27T05:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="693" started-at="2020-04-27T05:54:10Z" finished-at="2020-04-27T05:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="7389" started-at="2020-04-27T05:54:11Z" finished-at="2020-04-27T05:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linkTextTest()[pri:3, instance:com.test.GoogleTest@57e1b0c]" name="linkTextTest" duration-ms="42" started-at="2020-04-27T05:54:18Z" finished-at="2020-04-27T05:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="993" started-at="2020-04-27T05:54:18Z" finished-at="2020-04-27T05:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="7684" started-at="2020-04-27T05:54:19Z" finished-at="2020-04-27T05:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:4, instance:com.test.GoogleTest@57e1b0c]" name="test1" duration-ms="1" started-at="2020-04-27T05:54:27Z" finished-at="2020-04-27T05:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="643" started-at="2020-04-27T05:54:27Z" finished-at="2020-04-27T05:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="8748" started-at="2020-04-27T05:54:27Z" finished-at="2020-04-27T05:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:5, instance:com.test.GoogleTest@57e1b0c]" name="test2" duration-ms="1" started-at="2020-04-27T05:54:36Z" finished-at="2020-04-27T05:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="1370" started-at="2020-04-27T05:54:36Z" finished-at="2020-04-27T05:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="setup" is-config="true" duration-ms="8324" started-at="2020-04-27T05:54:37Z" finished-at="2020-04-27T05:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test3()[pri:6, instance:com.test.GoogleTest@57e1b0c]" name="test3" duration-ms="0" started-at="2020-04-27T05:54:46Z" finished-at="2020-04-27T05:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="655" started-at="2020-04-27T05:54:46Z" finished-at="2020-04-27T05:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

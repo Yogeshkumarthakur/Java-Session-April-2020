@@ -1,0 +1,25 @@
+TestNG -- TestNG means testing new generation framework
+Junit and testNG both are unit testing framework Normally developers use these FW to write Unit test cases. but Automation Eng also write their TC and integrate with sel
+its very powerful tool
+
+testng -- it is free open source available in the form of jar file. these is also called java unit testing FW. only applicable for java
+
+Feature of TestNG:
+-- this is unit Test FW
+-- These is also known as TDD  "Test Driven Development" Frame work. 
+-- design test case in systemetic way
+-- it can generate html report
+-- it gives lots of annotations. it always starts with @ example: @before, @after etc
+-- you can define priority or the sequence of the test cases
+-- it gives dependency feature means one TC can dependent on other TC
+-- you can define grouping also means out of 100 you want to run some group of TC
+-- there is data provider feature.  you can run same tc with different user data.
+
+install TestNg in Eclipse: 
+
+Note:
+--We never select or write Main method inside the TestNG. it will automatically execute the class for Example we create a class "TestNGBasics"
+
+
+
+

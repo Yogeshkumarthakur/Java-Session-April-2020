@@ -26,6 +26,8 @@ public class Car {
 		c.mod = 2013;
 		c.wheel = 4;
 		
+		System.out.println("before assigning the reference");
+		
 		System.out.println(a.mod);
 		System.out.println(a.wheel);
 		
@@ -35,6 +37,17 @@ public class Car {
 		System.out.println(c.mod);
 		System.out.println(c.wheel);
 		
+		System.out.println("After assigning the reference");
+		
+		a=b;
+		b=c;
+		c=a;
+		
+		a.mod = 10;
+		System.out.println(a.mod); // 10
+		c.mod = 20;
+		System.out.println(a.mod); // 20
+		System.out.println(c.mod); // 20
 		
 	}
 

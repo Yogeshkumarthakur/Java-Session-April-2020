@@ -10,7 +10,7 @@ public class TestCar {
 		b.start(); // overridden method
 		b.stop(); // this method is inherited from parent class
 		b.refuel(); // this method is inherited from parent class
-		b.theftSafety(); // overridden method
+		b.theftSafety(); // BMW own method
 		b.engine();
 		
 		System.out.println("*************");

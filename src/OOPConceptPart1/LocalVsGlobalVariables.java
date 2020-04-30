@@ -10,9 +10,11 @@ public class LocalVsGlobalVariables {
 		int i = 10; // local variable of main method
 		System.out.println(i);
 		
+		// As soon as u create object the copy of all non static method and non static global var will be given to that object
 		LocalVsGlobalVariables obj = new LocalVsGlobalVariables();
 		System.out.println(obj.name);
 		System.out.println(obj.age);
+		
 		
 	}
 

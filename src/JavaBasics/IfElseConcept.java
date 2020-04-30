@@ -37,8 +37,6 @@ public class IfElseConcept {
 		int b1 = 200;
 		int c1 = 300;
 		
-		String x=(a1>b1 & a1>c1)? "a1 is the greatest":"b1 is the greatest";
-		System.out.println("print x "+x);
 		 // nested if-else we use here 
 		
 		if (a1>b1 & a1>c1) { 

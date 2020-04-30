@@ -33,10 +33,6 @@ public class ConstructorConcept {
 		ConstructorConcept obj2 = new ConstructorConcept(10, 20);
 		
 		
-		
-		
-		
-		
 	}
 
 }

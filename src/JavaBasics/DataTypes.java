@@ -28,6 +28,7 @@ public class DataTypes {
 		char c1 = 'A';
 		char c2 = '1';
 		char c3 = '$';
+				
 		
 		//4. boolean: true and false are values but also keyword available on java
 		boolean b1 = true;
@@ -40,10 +41,7 @@ public class DataTypes {
 		String s3 = "1000";
 		String s4 = "12.33";
 		System.out.println(s2);
-		
-		
-		
-		
+			
 		
 	}
 
