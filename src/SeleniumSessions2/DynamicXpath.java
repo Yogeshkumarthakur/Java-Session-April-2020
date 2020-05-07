@@ -26,11 +26,9 @@ public class DynamicXpath {
 		driver.switchTo().frame("mainpanel");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[contains(text(),'Contacts')]")).click();
-		driver.findElement(By.xpath(
-				"//a[text()='pintu Thakur']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"))
+		driver.findElement(By.xpath("//a[text()='pintu Thakur']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"))
 				.click();
-		driver.findElement(By.xpath(
-				"//a[text()='y t']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"))
+		driver.findElement(By.xpath("//a[text()='y t']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"))
 				.click();
 
 	}
